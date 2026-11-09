@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.ancientkira.rufuswift</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>RufuSwift</name>
+  <summary>The Reliable Multi-Platform USB Formatting Utility</summary>
+  <description>
+    <p>
+      RufuSwift is a modern Swift implementation of the renowned Rufus utility for macOS, Linux, and Android.
+      It formats USB drives to FAT32, NTFS, exFAT, and ext4, and creates bootable media for Windows, macOS, Linux, and FydeOS.
+    </p>
+  </description>
+  <launchable type="desktop-id">com.ancientkira.rufuswift.desktop</launchable>
+  <url type="homepage">https://rufus.ie</url>
+  <provides>
+    <binary>rufuswift</binary>
+  </provides>
+  <releases>
+    <release version="4.6.0" date="2026-11-08"/>
+  </releases>
+</component>

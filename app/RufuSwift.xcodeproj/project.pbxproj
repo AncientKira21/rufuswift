@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA010001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020001 /* main.swift */; };
+		AA010002 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020002 /* MyApp.swift */; };
+		AA010003 /* DiskWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020003 /* DiskWriter.swift */; };
+		AA010004 /* RufusEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020004 /* RufusEngine.swift */; };
+		AA010005 /* ImageChecksums.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020005 /* ImageChecksums.swift */; };
+		AA010006 /* PreparedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020006 /* PreparedImage.swift */; };
+		AA010008 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA020008 /* LICENSE.txt */; };
+		AA010010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA020010 /* Assets.xcassets */; };
+		AA010011 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020011 /* ContentView.swift */; };
+		AA010012 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020012 /* AboutView.swift */; };
+		AA010013 /* ChecksumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020013 /* ChecksumsView.swift */; };
+		AA010014 /* DownloaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020014 /* DownloaderView.swift */; };
+		AA010015 /* WriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020015 /* WriterView.swift */; };
+		AA010016 /* FocusClearingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA020016 /* FocusClearingTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA020001 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AA020002 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		AA020003 /* DiskWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskWriter.swift; sourceTree = "<group>"; };
+		AA020004 /* RufusEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RufusEngine.swift; sourceTree = "<group>"; };
+		AA020005 /* ImageChecksums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChecksums.swift; sourceTree = "<group>"; };
+		AA020006 /* PreparedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreparedImage.swift; sourceTree = "<group>"; };
+		AA020007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA020008 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = "<group>"; };
+		AA020009 /* Rufus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rufus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA020010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA020011 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA020012 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		AA020013 /* ChecksumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksumsView.swift; sourceTree = "<group>"; };
+		AA020014 /* DownloaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderView.swift; sourceTree = "<group>"; };
+		AA020015 /* WriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterView.swift; sourceTree = "<group>"; };
+		AA020016 /* FocusClearingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusClearingTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA030001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA040001 = {
+			isa = PBXGroup;
+			children = (
+				AA040002 /* RufuSwift */,
+				AA020008 /* LICENSE.txt */,
+				AA040004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA040002 /* RufuSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AA020010 /* Assets.xcassets */,
+				AA020011 /* ContentView.swift */,
+				AA020012 /* AboutView.swift */,
+				AA020013 /* ChecksumsView.swift */,
+				AA020014 /* DownloaderView.swift */,
+				AA020015 /* WriterView.swift */,
+				AA020016 /* FocusClearingTextField.swift */,
+				AA020002 /* MyApp.swift */,
+				AA020001 /* main.swift */,
+				AA020003 /* DiskWriter.swift */,
+				AA020004 /* RufusEngine.swift */,
+				AA020005 /* ImageChecksums.swift */,
+				AA020006 /* PreparedImage.swift */,
+				AA020007 /* Info.plist */,
+			);
+			path = RufuSwift;
+			sourceTree = "<group>";
+		};
+		AA040004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA020009 /* Rufus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA050001 /* RufuSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA060001 /* Build configuration list for PBXNativeTarget "RufuSwift" */;
+			buildPhases = (
+				AA070001 /* Sources */,
+				AA030001 /* Frameworks */,
+				AA080001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RufuSwift;
+			productName = Rufus;
+			productReference = AA020009 /* Rufus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = AA060002 /* Build configuration list for PBXProject "RufuSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA040001;
+			productRefGroup = AA040004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA050001 /* RufuSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA080001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA010008 /* LICENSE.txt in Resources */,
+				AA010010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA070001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA010001 /* main.swift in Sources */,
+				AA010002 /* MyApp.swift in Sources */,
+				AA010011 /* ContentView.swift in Sources */,
+				AA010012 /* AboutView.swift in Sources */,
+				AA010013 /* ChecksumsView.swift in Sources */,
+				AA010014 /* DownloaderView.swift in Sources */,
+				AA010015 /* WriterView.swift in Sources */,
+				AA010016 /* FocusClearingTextField.swift in Sources */,
+				AA010003 /* DiskWriter.swift in Sources */,
+				AA010004 /* RufusEngine.swift in Sources */,
+				AA010005 /* ImageChecksums.swift in Sources */,
+				AA010006 /* PreparedImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA090001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA090002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA090003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4.6.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RufuSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 4.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancientkira.rufuswift;
+				PRODUCT_NAME = Rufus;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA090004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4.6.0;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RufuSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 4.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ancientkira.rufuswift;
+				PRODUCT_NAME = Rufus;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA060001 /* Build configuration list for PBXNativeTarget "RufuSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA090003 /* Debug */,
+				AA090004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA060002 /* Build configuration list for PBXProject "RufuSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA090001 /* Debug */,
+				AA090002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AA000001 /* Project object */;
+}

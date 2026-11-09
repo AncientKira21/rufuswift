@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=RufuSwift
+GenericName=USB Formatting and Bootable Drive Creator
+Comment=The Reliable Multi-Platform USB Formatting Utility
+Exec=rufuswift
+Icon=com.ancientkira.rufuswift
+Terminal=false
+Type=Application
+Categories=System;Utility;Archiving;
+StartupNotify=true
+Keywords=usb;flash;iso;format;bootable;drive;rufus;
+MimeType=application/x-cd-image;application/x-raw-disk-image;application/x-iso9660-image;
+Actions=NewDrive;
+
+[Desktop Action NewDrive]
+Name=Create Bootable USB
+Exec=rufuswift --writer
