@@ -20,9 +20,9 @@ A clear and concise description of what the bug is.
 A clear and concise description of what you expected to happen.
 
 ## Environment Details
-- OS Version: (e.g. macOS Sonoma 14.5, Ubuntu 24.04, Windows 11, Aluminum OS)
+- OS Version: (e.g. macOS Golden Gate 27.3, Ubuntu 24.04, Windows 11, Android 17)
 - RufuSwift Version: 4.6.0
-- Architecture: (e.g. Apple Silicon M-series, Intel x86_64, ARM64)
+- Architecture: (e.g. Apple Silicon, Intel x86_64, ARM64)
 - Target Device / USB Drive: (e.g. SanDisk Ultra 32GB)
 - ISO / Image Used: (e.g. Ubuntu 24.04 Desktop ISO)
 
