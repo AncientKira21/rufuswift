@@ -11,7 +11,7 @@ Provide a clear description of the security vulnerability and the potential impa
 
 ## Affected Components
 - [ ] macOS App (`Rufus.app` / `.pkg`)
-- [ ] Aluminum OS / Android (`Rufus.apk`)
+- [ ] Android (`Rufus.apk`)
 - [ ] Linux (`rufuswift` binary / `.deb` / Flatpak)
 - [ ] Windows (`rufuswift.exe`)
 - [ ] Core Engine (`RufusEngine.swift`)
